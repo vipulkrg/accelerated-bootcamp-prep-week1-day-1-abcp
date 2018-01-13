@@ -5,14 +5,16 @@ function tellJoke() {
 tellJoke();
 
 
-function NameofFunction() {
-  // body of function
+function newfunction() {
+  console.log("new functions body")
 }
+
 
 function addNumbers(num1, num2, num3, num4) {
-  num1 + num2 + num3 + num4
+  return num1 + num2 + num3 + num4
+  newfunction();
 }
 
 
-addNumbers()
+addNumbers(1, 2, 3, 4)
 
